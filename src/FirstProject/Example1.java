@@ -5,7 +5,8 @@ public class Example1 {
         int a = 15;
         int b = 2345;
         int c = a * b;
-        System.out.println(c);
-    }
 
+        System.out.println(c);
+
+    }
 }
