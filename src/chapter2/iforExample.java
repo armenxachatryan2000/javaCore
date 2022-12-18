@@ -2,14 +2,24 @@ package chapter2;
 
 public class iforExample {
     public static void main(String[] args) {
-        for (int i= 0; i<5 ;i++) {
 
-            for (int j = 0; j <= i; j++) {
+        int x = 5;
+        System.out.println("* *");
 
-                System.out.print("*");
+        for (int i = 1; i <= x; i++) {
+            for (int j = x; j > i; j--) {
+                System.out.println(" ");
             }
-            System.out.println();
-        }
+            for (int k = 1; k <= i; k++)
+                {
+                    System.out.print("*");
+                }
+                System.out.println();
 
+
+            }
+        }
     }
-}
+
+
+
