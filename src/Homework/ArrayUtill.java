@@ -7,9 +7,17 @@ public class ArrayUtill {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
 
-            
-
         }
+        int x = array[0];
+        int y = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > y) y = array[i];
+            else if (array[i] < x) x = array[i];
+        }
+
+        System.out.println(" " + x);
+        System.out.print(" " + y);
+
 
     }
 }
